@@ -2,7 +2,7 @@ name: Demo workflow
 on: workflow_dispatch
 jobs:
   print:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
         - name: Print a few lines
           run: echo Hi, Merion!
